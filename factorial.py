@@ -2,7 +2,7 @@
 #Actividad: Realizar una función que calcule el factorialde un numero
 
 
-def factorial(n):
+def factorial(n):   #funcion que calcula el factorial.
     resultado=1
     if n==0:
         return 1
