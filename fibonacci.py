@@ -1,21 +1,24 @@
-def fibo(n):
+#Nombre: Marcelo Minay
+#Actividad: Realizar una función que calcule el termino enesimo de fibonacci.
+
+def fibonacci(n):				#funcion calcula el termino enesimo de forma recursiva
     if(n==0):
         return 0
     else:
         if (n==1):
             return 1
         else:
-            return (fibo (n-1) + fibo (n-2))
+            return (fibonacci (n-1) + fibonacci (n-2))
 
 
 def main():
     
 
-    num=input("Ingrese el numero del termino de la serie fibonacci que desea mostrar ")
+    numero=input("Ingrese el termino enesimo de la serie de fibonacci que desea mostrar ")
 
-    a=fibo(int(num))
+    a=fibonacci(int(numero))
 
-    print("El termino",num,"de la serie fibonacci es",a)
+    print("El termino",numero,"de la serie fibonacci es",a)
 
 
     return 0

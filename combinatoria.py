@@ -1,4 +1,8 @@
-def factorial(n):
+#Nombre: 		Marcelo Minay
+#Actividad: 	Se debe realizar un programa que cálcule el valor de una combinatoria
+
+
+def factorial(n):				#funcion que determina el factorial de un numero.
     resultado=1
     if n==0:
         return 1

@@ -1,3 +1,7 @@
+#Nombre: Marcelo Minay
+#Actividad: Realizar una función que calcule el factorialde un numero
+
+
 def factorial(n):
     resultado=1
     if n==0:
